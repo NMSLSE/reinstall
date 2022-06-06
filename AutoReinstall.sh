@@ -151,7 +151,7 @@ function Start() {
   fi
 
   if [[ "$isCN" == '1' ]]; then
-   wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
+   wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://fastly.jsdelivr.net/gh/fcurrk/reinstall@master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
   else 
    wget --no-check-certificate -qO /tmp/Core_Install.sh 'https://raw.githubusercontent.com/fcurrk/reinstall/master/Core_Install_v3.1.sh' && chmod a+x /tmp/Core_Install.sh
   fi
